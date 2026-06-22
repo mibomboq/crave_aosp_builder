@@ -51,7 +51,7 @@ on:
       PRODUCT_NAME:
         description: "Product to build:"
         required: true
-        default: "6781"
+        default: "X1"
       BUILD_COMMAND:
         description: 'Command to be used for compiling:'
         required: true
