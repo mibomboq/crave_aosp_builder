@@ -1,5 +1,5 @@
 #This is a template, modify as you like
-PixelOS16
+PixelOS16:
   ignoreClientHostname: true
 CipherOS:
   ignoreClientHostname: false
