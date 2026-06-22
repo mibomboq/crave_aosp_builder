@@ -1,25 +1,27 @@
 #This is a template, modify as you like
+PixelOS16
+  ignoreClientHostname: true
 CipherOS:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 Arrow OS:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 DerpFest-aosp:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 LOS 20:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 LOS 18.1:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 LOS 21:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 LOS 22:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 PixelOS:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 Rising OS:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 LOS 16:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 LOS CM 14.1:
-  ignoreClientHostname: true
+  ignoreClientHostname: false
 
 #ignoreClientHostname is used to keep persistence by ignoring the client hostname
