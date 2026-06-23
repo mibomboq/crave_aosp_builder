@@ -585,7 +585,7 @@ jobs:
       continue-on-error: true
       run: |
         cd $PROJECTFOLDER
-        ZIP_FILE=$(ls out/target/product/${{ github.event.inputs.DEVICE_NAME }}/Pixel*${{ github.event.inputs.DEVICE_NAME }}*.zip 2>/dev/null | head -n 1)
+        ZIP_FILE=$(ls out/target/product/${{ github.event.inputs.PRODUCT_NAME }}/Pixel*${{ github.event.inputs.PRODUCT_NAME }}*.zip 2>/dev/null | head -n 1)
         if [ -n "$ZIP_FILE" ]; then
           echo "Found zip: $ZIP_FILE"
           wget -q https://raw.githubusercontent.com/lordgaruda/GoFile-Upload/refs/heads/master/upload.sh
