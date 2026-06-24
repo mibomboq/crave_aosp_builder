@@ -1,6 +1,8 @@
 #This is a template, modify as you like
 PixelOS16:
   ignoreClientHostname: true
+Infinity:
+  ignoreClientHostname: true
 CipherOS:
   ignoreClientHostname: false
 Arrow OS:
